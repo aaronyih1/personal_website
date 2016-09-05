@@ -1,0 +1,98 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+body{
+	background-image: url(../imgs/background.png);
+	background-size: 300px;
+	font-family: "Gill Sans";
+	text-align:left;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	overflow: auto;
+	color: #303c98;
+}
+table{
+	font-weight: 700;
+}
+tr{
+	line-height: 13px;
+}
+th{
+	padding-right: 25px;
+	text-transform: uppercase;
+	line-height: 15px;
+}
+td{
+	padding-right: 25px;
+}
+a{
+	text-decoration: none;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-left: -4px;
+}
+a:visited{
+	color: #303c98;
+}
+a:hover{
+	background-color: rgba(255,255,0, 0.8);
+}
+#ghost_highlight{
+	background-color: transparent;
+	color: transparent;
+	left: 0px;
+	z-index: 1;
+	letter-spacing: 2px;
+	opacity: 0.8;
+}
+.highlight_text{
+	position: absolute;
+	left:10px;
+	top:-11px;
+/*	display: inline-block;*/
+	z-index: 10;
+/*	height: 80px;*/
+}
+.highlight_text:hover{
+	text-decoration: underline;
+}
+#shadow{
+	width: 100vw;
+	height:42px;
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0),rgba(0,0,0,0.85));
+	);
+	position: absolute;
+	top:0;
+	left:0;
+}
+#content-container{
+	display: table;
+	margin: 0 auto;
+	margin-top: 30vh;
+}
+#content-container table{
+	display: inline-block;
+	margin-right: 40px;
+	position: relative;
+	top:-130px;
+}
+#content-container h1{
+	display: inline-block;
+	font-size: 70pt;
+	margin: 0;
+	line-height: 62.5pt;
+	position: relative;
+	top:90px;
+	z-index: 100;
+}
+#design{
+	letter-spacing: 1px;
+}
+#kerning{
+	letter-spacing: -5px;
+}
+#extra-leading{
+	line-height: 76pt;
+}
