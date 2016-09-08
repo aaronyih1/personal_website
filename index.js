@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 
 app.use(express.static('static'));
+app.use('/enrou', express.static('static/work_files/enrou'));
 
 app.get('/contact', function(req, res) {
     res.sendFile( __dirname + "/static/" + "contact.html" );
