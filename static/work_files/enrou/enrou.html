@@ -2,10 +2,71 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Enrou Interview Project. (ps. I hope you like it!)</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <title>Enrou Interview Project.</title>
+  	<link class="css" rel="stylesheet" href="/work_files/enrou/css/enrou_styles.css" type="text/css">
+  	<script src="http://www.youtube.com/player_api"></script>
   </head>
   <body>
-  
+  	<div id="absolute_container">
+  		<img id="intro" src="/work_files/enrou/imgs/intro_page.png" />
+  		<img id="email1" src="/work_files/enrou/imgs/email1.png" />
+  		<div class="nullify"><h3 id="email1_title" class ="title type">email 1: suede sandals</h3></div>
+  		<img id="globe_gif" src="/work_files/enrou/imgs/globe.gif" />
+  		<img id="email2" src="/work_files/enrou/imgs/email2.png"/>
+  		<div class="nullify"><h3 id="email2_title" class="title type">email 2: Enrou vendor spotlight</h3><p id="email2_text" class = "body type">The video embedded here is intended to be replaced with tours or videos of the actual place (in this case JOYN's community) where the product is made.</p></div>
+
+  		<div class="m-video"><div id="player"></div></div>
+  	</div>
+  	<script
+	  src="https://code.jquery.com/jquery-3.1.0.min.js"
+	  integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+	  crossorigin="anonymous">
+  	</script>
+  	<script>
+  		var player;
+
+  		function onYouTubePlayerAPIReady() {
+  		    player = new YT.Player('player', {
+  		        playerVars: {
+  		            // 'autoplay': 1,
+  		            'controls': 0,
+  		            'autohide': 1,
+  		            'wmode': 'opaque',
+  		            'showinfo': 0,
+  		            'loop': 1,
+  		            'mute': 1,
+  		            'start': 18
+  		            //'end': 110
+  		        },
+  		        videoId: 'zDAYZU4A3w0',
+  		        events: {
+  		            'onReady': onPlayerReady
+  		        }
+  		    });
+
+  		}
+
+  		function onPlayerReady(event) {
+  		    // event.target.mute();
+  		    $('#text').fadeIn(400);
+  		    //why this? Well, if you want to overlay text on top of your video, you
+  		    //will have to fade it in once your video has loaded in order for this
+  		    //to work in Safari, or your will get an origin error.
+  		}
+
+  		//this pauses the video when it's out of view, just wrap your video in .m-//video
+  		$(window).scroll(function() {
+  			console.log($(this).scrollTop());
+  		   var hT = $('.m-video').position().top,
+  		       wS = $(this).scrollTop();
+  		   if (wS < 1000) {
+  		      player.pauseVideo();
+  		   }
+  		   else {
+  		      player.playVideo();
+  		      player.unMute();
+  		   }
+  		});
+  	</script>
   </body>
 </html>
