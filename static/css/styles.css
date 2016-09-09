@@ -4,7 +4,7 @@ html {
     height: 100%;
 }
 body{
-	background-image: url(/imgs/background.png);
+	background-image: url(https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/contact_background.jpg);
 	background-size: 300px;
 	font-family: "Gill Sans";
 	text-align:left;
