@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clipboard": "^1.5.12",
     "express": "^4.14.0"
   },
   "repository": {
