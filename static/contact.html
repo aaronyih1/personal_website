@@ -40,7 +40,9 @@
     });
     clipboard.on('error', function(e) {
         console.log(e);
-        alert("there's something seriously wrong with this website or your computer.");
+        if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {alert("Please use cmd+c to copy ' aaron.yih@ucla.edu ' to your clipboard. Then use cmd+v to paste it into your email composition window. (this would all be so much easier if you used pretty much any other browser...)");}
+        else
+          alert("there's something seriously wrong with this website or your computer.");
     });
     </script>
   </body>
