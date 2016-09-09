@@ -4,7 +4,7 @@ html {
     height: 100%;
 }
 body{
-	background-image: url(https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/contact_background.jpg);
+	background-image: url(/imgs/background.png);
 	background-size: 300px;
 	font-family: "Gill Sans";
 	text-align:left;
@@ -105,7 +105,7 @@ a:hover{
 
 /*//////////////CONTACT.HTML///////////////////////////*/
 #contact_background_container{
-	background: url(../imgs/contact_background.jpg);
+	background: url(https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/contact_background.jpg);
 	background-size: cover;
 	background-position: right;
 	background-repeat: no-repeat;
