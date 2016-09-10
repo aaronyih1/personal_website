@@ -16,6 +16,7 @@ body{
 }
 table{
 	font-weight: 700;
+	width: 400px;
 }
 tr{
 	line-height: 13px;
@@ -24,9 +25,11 @@ th{
 	padding-right: 25px;
 	text-transform: uppercase;
 	line-height: 15px;
+/*	width: 105px;*/
 }
 td{
 	padding-right: 25px;
+/*	width: 105px;*/
 }
 a{
 	text-decoration: none;
@@ -72,18 +75,18 @@ a:hover{
 	top:0;
 	left:0;
 }
-#content-container{
+#content_container{
 	display: table;
 	margin: 0 auto;
-	margin-top: 30vh;
+	margin-top: 25vh;
 }
-#content-container table{
+#content_container table{
 	display: inline-block;
 	margin-right: 40px;
 	position: relative;
-	top:-130px;
+	top:-150px;
 }
-#content-container h1{
+#link_container{
 	display: inline-block;
 	font-size: 70pt;
 	margin: 0;

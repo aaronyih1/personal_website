@@ -1,11 +1,11 @@
-$( document ).ready(function() {
-	var counter = 0;
-	setInterval(function(){
-		$('body').css("background-position", "0px "+counter+"px");
-		counter+=0.1;
-	}, 1);
+// $( document ).ready(function() {
+// 	var counter = 0;
+// 	setInterval(function(){
+// 		$('body').css("background-position", "0px "+counter+"px");
+// 		counter+=0.1;
+// 	}, 1);
 
-});
+// });
 
 
 $( document ).ready(function() {

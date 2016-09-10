@@ -1,0 +1,26 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+ 
+@media all and (min-width: 870px) and (max-width: 1024px) {
+}
+ 
+@media all and (min-width: 480px) and (max-width: 870px) {
+	#content_container{
+		margin-top:45vh;
+		margin-left:4vw;
+	}
+	#link_container{
+		top: -100px !important;
+	}
+}
+ 
+@media all and (max-width: 480px) { 
+	#content_container{
+		margin-top:45vh;
+		margin-left:4vw;
+	}
+	#link_container{
+		top: -100px !important;
+	}
+}
