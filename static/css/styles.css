@@ -124,18 +124,21 @@ a:hover{
 #contact_description{
 	width: 60vw;
 	margin: 0;
-	font-size: 3.2vw;
+	font-size: 30pt;
 	margin-bottom: 4vh;
 }
 #email_icon{
+	display: inline-block;
 	width: 40px;
 	position: relative;
 	top:4px;
 	margin-right: 5px;
 }
 #email_me{
+	display: inline-block;
 	font-weight: 400;
 	font-size: 22pt;
+	margin: 0;
 }
 
 
