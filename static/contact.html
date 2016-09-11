@@ -41,12 +41,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
     <script>
     if (/iPhone|iPad|iPod/i.test(navigator.userAgent) ){
-      $('.email_call_to_action').on('click',function(){
+      $('#email_call_to_action').click(function(){
          window.location.href = "mailto:aaron.yih@ucla.edu"; 
       });
     }
-    else
-    $('#email_call_to_action').click(function(){});
 
     var clipboard = new Clipboard('#email_call_to_action');
     clipboard.on('success', function(e) {
