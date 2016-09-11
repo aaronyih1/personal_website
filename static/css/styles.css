@@ -127,6 +127,9 @@ a:hover{
 	font-size: 30pt;
 	margin-bottom: 4vh;
 }
+#email_call_to_action{
+	display: inline-block;
+}
 #email_icon{
 	display: inline-block;
 	width: 40px;
