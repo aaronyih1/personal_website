@@ -40,6 +40,12 @@
   	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
     <script>
+    if (/iPhone|iPad|iPod/i.test(navigator.userAgent) ){
+      $('.email_call_to_action').on('click',function(){
+         window.location.href = "mailto:aaron.yih@ucla.edu"; 
+      });
+    }
+    else
     $('#email_call_to_action').click(function(){});
 
     var clipboard = new Clipboard('#email_call_to_action');
@@ -49,11 +55,6 @@
     });
     clipboard.on('error', function(e) {
         console.log(e);
-        if (/iPhone|iPad|iPod/i.test(navigator.userAgent) ){
-          $('.email_call_to_action').on('click',function(){
-             window.location.href = "mailto:aaron.yih@ucla.edu"; 
-          });
-        }
         if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {alert("Please use cmd+c to copy ' aaron.yih@ucla.edu ' to your clipboard. Then use cmd+v to paste it into your email composition window. (this would all be so much easier if you used pretty much any other browser...)");}
         else
           alert("there's something seriously wrong with this website or your computer.");
