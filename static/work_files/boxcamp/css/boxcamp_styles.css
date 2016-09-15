@@ -1,0 +1,92 @@
+body{
+	background-color: #181a1a;
+}
+img{
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	pointer-events: none;
+}
+iframe{
+	border: none;
+	position: relative;
+	width: 281px;
+	height: 160px;
+	top:-375px;
+	left:268px;
+/*	z-index: -100;*/
+}
+.type{
+	position: absolute;
+	color:#c4ae9b;
+	width: 200px;
+	font-family: "Gill Sans";
+}
+.title{
+	text-transform: uppercase;
+	font-size: 10pt;
+}
+.body{
+	font-weight: 100;
+}
+
+.nullify{
+	position: relative;
+	width: 0;
+	height:0;
+}
+
+#absolute_container{
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+#intro{
+	width: 100%;
+}
+#email1_title{
+	left:600px;
+	top:-580px;
+}
+#email1{
+	margin-top: 50px;
+	width: 80%;
+}
+#globe_gif{
+	position: relative;
+	margin-bottom: -80px;
+	top:-500px;
+	z-index: -100;
+	width: 42%;
+	left:120px;
+	-webkit-filter: brightness(82%);
+}
+#email2{
+	position: relative;
+	left:20%;
+	width: 80%;
+}
+#email2_title{
+	top:-500px;
+	left: -100px;
+}
+#email2_text{
+	top:-460px;
+	left: -100px;
+}
+#player{
+	margin-bottom: -80px;
+}
+#board_title{
+	text-align: center;
+	color:#c4ae9b;
+	font-family: "Gill Sans";
+	margin-bottom: 26px;
+}
+#bottom_spacer{
+	width: 10px;
+	height: 45px;
+}

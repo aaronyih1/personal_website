@@ -106,6 +106,13 @@ a:hover{
 }
 
 /*//////////////CONTACT.HTML///////////////////////////*/
+#renderer{
+	position: absolute;
+	z-index: 1000;
+}
+#renderer canvas{
+	background-color: transparent;
+}
 #contact_background_container{
 	background: url(https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/contact_background.jpg);
 	background-size: cover;
