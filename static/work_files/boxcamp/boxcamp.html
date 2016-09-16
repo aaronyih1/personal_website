@@ -2,72 +2,31 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Boxcamp</title>
+    <title>BoxCamp</title>
   	<link class="css" rel="stylesheet" href="/work_files/boxcamp/css/boxcamp_styles.css" type="text/css">
   </head>
   <body>
-  	<div id="absolute_container">
-  		<img id="intro" src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/Intro_page.png" />
-  		<img id="email1" src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/email1.png" />
-  		<div class="nullify"><h3 id="email1_title" class ="title type">email 1: suede sandals</h3></div>
-  		<img id="globe_gif" src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/globe.gif" />
-  		<img id="email2" src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/email2.png"/>
-  		<div class="nullify"><h3 id="email2_title" class="title type">email 2: Enrou vendor spotlight</h3><p id="email2_text" class = "body type">The video embedded here is intended to be replaced with tours or videos of the actual place (in this case JOYN's community) where the product is made. Try dragging the screen around to take a look around; it's 360. Once you get the point, you may want to mute the sound, otherwise it'll get super annoying.</p></div>
-  		<div class="m-video"><div id="player"></div></div>
-  		<h3 id="board_title" class="title">Moodboard: What and Where is Home?</h3>
-  		<a data-pin-do="embedBoard" data-pin-board-width="700" data-pin-scale-height="500" data-pin-scale-width="80" href="https://www.pinterest.com/aaronyih/enrou-mood-board/"></a>
-  		<div id="bottom_spacer"></div>
-  	</div>
+  	<div id="project_image_container">
+      <h2 class="intro_text">BoxCamp is a by-students-for-students service that provides hassle-free summer storage for UCLA, UCSB, and the Claremonts.</h2>
+      <div class="two_column_container">
+        <img src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/brochure_front_before.png" />
+        <img src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/brochure_back_before.png" />
+      </div>
+      <img src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/brochure_front_after.png"/>
+      <img src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/brochure_back_after.png"/>
+    </div>
+  	<div id="project_text_column">
+      <img id="logo" src="https://s3-us-west-1.amazonaws.com/aaronyih.com/imgs/boxcampwhite.png" />
+      <p>They asked me to improve their trifold brochure design by 12 am the next night. I was familiar with their design identity because I have seen their content around campus and because I know the founder through my frat.</p>
+      <p>A strong but subtle motif that BoxCamp uses throughout their material is night and day. Often, the front of the flyer will be day and the back will be night, suggesting that your boxes will be safe day and night. I was immediately impressed when I noticed this, so I wanted to keep this in the design.</p>
+      <p>Overall, the layout of the brochure was done quite well, so I kept most of it the same. I did align some key features like the bounding lines on the left with the top of the logo and the bottom of the URL. I rearranged some of the icons to stress hierarchy as well as added a photo to bring life to the physical address provided.</p>
+      <p>The most pressing issue with the old design was the typography. The type itself was not consistent with BoxCamp's millenial-focused identity. The serif font made the brochure seem dated, and the center aligned body text made it seem formal—not the vibe BoxCamp is going for.</p>
+      <p>I selected San Fransisco, and used it to replace the 4 other fonts that were used prior. Immediately, the brochure became less about what indesign can do and more about what BoxCamp can.</p>
+    </div>
   	<script
 	  src="https://code.jquery.com/jquery-3.1.0.min.js"
 	  integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
 	  crossorigin="anonymous">
   	</script>
-  	<script>
-  		var player;
-
-  		function onYouTubePlayerAPIReady() {
-  		    player = new YT.Player('player', {
-  		        playerVars: {
-  		            // 'autoplay': 1,
-  		            'controls': 0,
-  		            'autohide': 1,
-  		            'wmode': 'opaque',
-  		            'showinfo': 0,
-  		            'loop': 1,
-  		            'mute': 1,
-  		            'start': 18,
-  		            'rel': 0
-  		        },
-  		        videoId: 'zDAYZU4A3w0',
-  		        events: {
-  		            'onReady': onPlayerReady
-  		        }
-  		    });
-
-  		}
-
-  		function onPlayerReady(event) {
-  		    // event.target.mute();
-  		    $('#text').fadeIn(400);
-  		    //why this? Well, if you want to overlay text on top of your video, you
-  		    //will have to fade it in once your video has loaded in order for this
-  		    //to work in Safari, or your will get an origin error.
-  		}
-
-  		//this pauses the video when it's out of view, just wrap your video in .m-//video
-  		$(window).scroll(function() {
-  		   var hT = $('.m-video').position().top,
-  		       wS = $(this).scrollTop();
-  		   if ((wS < 1000)|| (wS>1620)) {
-  		      player.pauseVideo();
-  		   }
-  		   else {
-  		      player.playVideo();
-  		      player.unMute();
-  		   }
-  		});
-  	</script>
-  	<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
   </body>
 </html>
