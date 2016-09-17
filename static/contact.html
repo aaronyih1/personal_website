@@ -11,40 +11,6 @@
   <meta name="msapplication-TileColor" content="#303c98">
   </head>
   <body>
-    <div id="renderer"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.10.0/matter.js"></script>
-    <script type="text/javascript">
-      // module aliases
-      var Engine = Matter.Engine,
-          Render = Matter.Render,
-          World = Matter.World,
-          Bodies = Matter.Bodies;
-
-      // create an engine
-      var engine = Engine.create();
-
-      // create a renderer
-      var render = Render.create({
-          element: document.getElementById("renderer"),
-          engine: engine
-      });
-
-      render.textures = 'http://brm.io/matter-js-demo-master/img/wall-bg.jpg';
-      // create two boxes and a ground
-      var boxA = Bodies.rectangle(400, 200, 80, 80);
-      var boxB = Bodies.rectangle(450, 50, 80, 80);
-      var ground = Bodies.rectangle(400, 610, 810, 60, { isStatic: true });
-
-      // engine.render.options.background = "red"
-      // add all of the bodies to the world
-      World.add(engine.world, [boxA, boxB, ground]);
-
-      // run the engine
-      Engine.run(engine);
-
-      // run the renderer
-      Render.run(render);
-    </script>
     <div id="contact_background_container">
       <div id="contact_description_container">
         <h1 id="contact_description">I’m Aaron, a Design & Media Arts student at UCLA with a focus on web design and development. I started UCLA’s first design club and 3 failed “startups”. I’m currently fascinated with tactile surprises, taste, 360 imaging, long exposure photography, cinemagraphs, emergency blankets, mustaches, and stoicism. Feel free to reach out to me for collaborations, discussions, and freelance work. &nbsp;</h1>
