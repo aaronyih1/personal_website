@@ -1,0 +1,71 @@
+body, html{
+	margin:0;
+	font-family: "Gill Sans";
+	font-weight: 200;
+	color:white;
+	background-color: black;
+}
+img{
+	width: 75%;
+	margin: 20px 0;
+}
+h1{
+	font-size: 20pt;
+	font-weight: 500; 
+}
+h2{
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+p{
+	width: 90%;
+	letter-spacing: 0.5px;
+}
+a:visited{
+	color: white;
+}
+#logo{
+	display: block;
+	margin:0 auto;
+	width: 50%;
+	padding: 40px 0;
+	padding-right: 40px;
+}
+#project_image_container{
+/*	background-color: red;*/
+	width: 65vw;
+	margin-right: -4px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 60px;
+}
+#project_text_column{
+/*	background-color: blue;*/
+	padding-top: 15px;
+	width:35vw;
+	float: right;
+}
+.intro_text{
+	text-align: left;
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.two_column_container{
+	text-align: center;
+}
+.two_column_container img{
+	width: 37.3%;
+	display: inline-block;
+}
+.two_column_container img:first-child{
+	margin-right: 5px;
+}
+.three_column_container{
+	text-align: center;
+}
+.three_column_container img{
+	width: 25%;
+	display: inline-block;
+}
