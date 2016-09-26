@@ -2,9 +2,6 @@ var express = require('express');
 var app = express();
 
 app.use(express.static('static'));
-app.use('/enrou', express.static('static/work_files/enrou'));
-app.use('/enrou', express.static('static/work_files/boxcamp'));
-app.use('/enrou', express.static('static/project_files/boxcamp'));
 
 app.get('/contact', function(req, res) {
     res.sendFile( __dirname + "/static/" + "contact.html" );
@@ -16,6 +13,9 @@ app.get('/hi_enrou', function(req, res) {
 });
 app.get('/boxcamp', function(req, res) {
     res.sendFile( __dirname + "/static/work_files/boxcamp/" + "boxcamp.html" );
+});
+app.get('/prime', function(req, res) {
+    res.sendFile( __dirname + "/static/work_files/prime/" + "prime.html" );
 });
 
 /*/////////PROJECT FILE LINKS//////////*/
