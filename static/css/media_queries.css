@@ -1,81 +1,81 @@
 /*/////////////////LAPTOP/DESKTOP DEVICES/////////////////*/
 @media all and (min-width: 870px) and (max-width: 1080px) {
-	#contact_description{
-		width:55vw !important;
-		font-size: 25pt;
-	}
+  #contact_description{
+    width:55vw !important;
+    font-size: 25pt;
+  }
 }
 @media all and (min-width: 480px) and (max-width: 870px) {
-	#content_container{
-		margin-top:45vh;
-		margin-left:4vw;
-	}
-	#link_container{
-		top: -100px !important;
-	}
-	#contact_description{
-		font-size: 23pt;
-		width: 50vw !important;
-	}
+  #content_container{
+    margin-top:45vh;
+    margin-left:4vw;
+  }
+  #link_container{
+    top: -100px !important;
+  }
+  #contact_description{
+    font-size: 23pt;
+    width: 50vw !important;
+  }
 }
 @media only screen and (max-width:780px){
-	#contact_description_container{
-		width: 92vw !important;
-	}
-	#contact_description{
-		font-size: 17.3pt;
-		line-height: 20pt;
-		display: inline;
-	}
-	#email_call_to_action{
-		display: inline-block;
+  #contact_description_container{
+    width: 92vw !important;
+  }
+  #contact_description{
+    font-size: 17.3pt;
+    line-height: 20pt;
+    display: inline;
+  }
+  #email_call_to_action{
+    display: inline-block;
 
-	}
-	#email_icon{
-		display: inline-block;
-		width: 30px;
-		position: relative;
-		top:3px;
-		margin-right: 5px;
-	}
-	#email_me{
-		display: inline-block;
-		font-size: 15pt;
-		margin: 0;
-	}
+  }
+  #email_icon{
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    top:3px;
+    margin-right: 5px;
+  }
+  #email_me{
+    display: inline-block;
+    font-size: 15pt;
+    margin: 0;
+  }
  }
  @media only screen and (max-width:620px){
- 	#contact_description{
- 		font-size: 14pt;
- 	}
- 	#email_icon{
- 		width: 25px;
- 	}
- 	#email_me{
- 		font-size: 12pt;
- 	}
+  #contact_description{
+    font-size: 14pt;
+  }
+  #email_icon{
+    width: 25px;
+  }
+  #email_me{
+    font-size: 12pt;
+  }
   }
  @media only screen and (max-width:560px){
- 	#contact_description{
- 		font-size: 13pt;
- 		line-height: 18pt;
- 	}
- 	#email_call_to_action{
- 		position: relative;
- 		top:1px;
- 	}
+  #contact_description{
+    font-size: 13pt;
+    line-height: 18pt;
+  }
+  #email_call_to_action{
+    position: relative;
+    top:1px;
+  }
   }
 @media all and (max-width: 480px) { 
-	#content_container{
-		margin-top:45vh;
-		margin-left:4vw;
-	}
-	#link_container{
-		top: -100px !important;
-	}
-	#contact_description{
-		font-size: 12pt;
-	}
+  #content_container{
+    margin-top:45vh;
+    margin-left:4vw;
+  }
+  #link_container{
+    top: -100px !important;
+  }
+  #contact_description{
+    font-size: 12pt;
+  }
 }
 /*/////////////////IPHONES/////////////////*/
 
@@ -114,25 +114,25 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-  	#contact_description_container{
-  		width: 92vw !important;
-  	}
-  	#contact_description{
-  		font-size: 30pt;
-  		display: inline;
-  	}
-  	#email_call_to_action{
-  		display: inline-block;
-  		position: relative;
-  		top:6px;
+    #contact_description_container{
+      width: 92vw !important;
+    }
+    #contact_description{
+      font-size: 30pt;
+      display: inline;
+    }
+    #email_call_to_action{
+      display: inline-block;
+      position: relative;
+      top:6px;
 
-  	}
-  	#email_icon{
-  		width: 60px;
-  	}
-  	#email_me{
-  		font-size: 30pt;
-  	}
+    }
+    #email_icon{
+      width: 60px;
+    }
+    #email_me{
+      font-size: 30pt;
+    }
 }
 
 /* Landscape */
@@ -141,9 +141,9 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-  	#contact_description{
-  		width:70vw !important;
-  	}
+    #contact_description{
+      width:70vw !important;
+    }
 
 }
 
@@ -155,25 +155,25 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-  	#contact_description_container{
-  		width: 92vw !important;
-  	}
-  	#contact_description{
-  		font-size: 32pt;
-  		display: inline;
-  	}
-  	#email_call_to_action{
-  		display: inline-block;
-  		position: relative;
-  		top:8px;
+    #contact_description_container{
+      width: 92vw !important;
+    }
+    #contact_description{
+      font-size: 32pt;
+      display: inline;
+    }
+    #email_call_to_action{
+      display: inline-block;
+      position: relative;
+      top:8px;
 
-  	}
-  	#email_icon{
-  		width: 62px;
-  	}
-  	#email_me{
-  		font-size: 33pt;
-  	}
+    }
+    #email_icon{
+      width: 62px;
+    }
+    #email_me{
+      font-size: 33pt;
+    }
 
 }
 
@@ -183,9 +183,9 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-  	#contact_description{
-  		width:70vw !important;
-  	}
+    #contact_description{
+      width:70vw !important;
+    }
 
 }
 
@@ -198,25 +198,25 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-  	#contact_description_container{
-  		width: 92vw !important;
-  	}
-  	#contact_description{
-  		font-size: 32pt;
-  		display: inline;
-  	}
-  	#email_call_to_action{
-  		display: inline-block;
-  		position: relative;
-  		top:8px;
+    #contact_description_container{
+      width: 92vw !important;
+    }
+    #contact_description{
+      font-size: 32pt;
+      display: inline;
+    }
+    #email_call_to_action{
+      display: inline-block;
+      position: relative;
+      top:8px;
 
-  	}
-  	#email_icon{
-  		width: 62px;
-  	}
-  	#email_me{
-  		font-size: 33pt;
-  	}
+    }
+    #email_icon{
+      width: 62px;
+    }
+    #email_me{
+      font-size: 33pt;
+    }
 }
 
 /* Landscape */
@@ -225,7 +225,7 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
-  	#contact_description{
-  		width:70vw !important;
-  	}
+    #contact_description{
+      width:70vw !important;
+    }
 }
