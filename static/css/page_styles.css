@@ -21,8 +21,18 @@ p{
 	width: 90%;
 	letter-spacing: 0.5px;
 }
+a{
+	color: white !important;
+}
+a:visited{
+	color: white;
+}
 #logo{
-	margin:0;
+	display: block;
+	margin:0 auto;
+	width: 50%;
+	padding: 40px 0;
+	padding-right: 40px;
 }
 #project_image_container{
 /*	background-color: red;*/
@@ -49,9 +59,16 @@ p{
 	text-align: center;
 }
 .two_column_container img{
-	width: 37.3%;
+	width: 37.3% !important;
 	display: inline-block;
 }
 .two_column_container img:first-child{
 	margin-right: 5px;
+}
+.three_column_container{
+	text-align: center;
+}
+.three_column_container img{
+	width: 25%;
+	display: inline-block;
 }

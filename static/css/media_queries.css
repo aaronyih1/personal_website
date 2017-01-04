@@ -1,11 +1,11 @@
 /*/////////////////LAPTOP/DESKTOP DEVICES/////////////////*/
-@media all and (min-width: 870px) and (max-width: 1080px) {
+@media all and (min-width: 920px) and (max-width: 1080px) {
   #contact_description{
     width:55vw !important;
     font-size: 25pt;
   }
 }
-@media all and (min-width: 480px) and (max-width: 870px) {
+@media all and (min-width: 480px) and (max-width: 920px) {
   #content_container{
     margin-top:45vh;
     margin-left:4vw;

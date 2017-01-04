@@ -16,7 +16,7 @@ body{
 }
 table{
 	font-weight: 700;
-	width: 400px;
+	width: 450px;
 }
 tr{
 	line-height: 13px;
@@ -29,6 +29,7 @@ th{
 }
 td{
 	padding-right: 25px;
+	white-space: nowrap;
 /*	width: 105px;*/
 }
 a{

@@ -1,0 +1,150 @@
+<!doctype html>  
+<html lang="en">  
+  <head>
+    <meta charset="utf-8">
+    <title>take a bite</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../project_files/InDe/OG-InDe-website/css/style.css">
+  </head>
+  <body>
+    <section id="react"></section>
+    <script type="text/jsx">
+      var App = React.createClass({displayName: "App",  
+        render: function() {
+          return (
+            React.createElement("div", {className: "nav"}, 
+              React.createElement("a", {name: "#top"}), 
+              React.createElement("img", {src: "https://s3.amazonaws.com/indulgeindesign.org/imgs/menubar.svg", style: navBarStyle, id: "navHeader"}), 
+              React.createElement("ul", {style: navStyle, id: "nav"}, 
+                React.createElement("li", {style: navItemStyle, id: "homeButton"}, React.createElement("a", {href: "#top"}, React.createElement("img", {src: "https://s3.amazonaws.com/indulgeindesign.org/imgs/coffee.svg", style: logoStyle}))), 
+                React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#top"}, "intro")), 
+                React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#philosophy"}, "philosophy")), 
+                React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#schedule"}, "schedule")), 
+                React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#member"}, "membership")), 
+                React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#contact"}, "contact"))
+              ), 
+              React.createElement("img", {src: "https://s3.amazonaws.com/indulgeindesign.org/imgs/sketchSmall.png", style: sketchStyle}), 
+              React.createElement("table", {style: tableStyle}, 
+                React.createElement("tr", null, 
+                  React.createElement("td", null, React.createElement("h2", {style: titleStyle}, "Indulge", React.createElement("br", null), "In Design")), 
+                  React.createElement("td", null, React.createElement("p", {style: descriptionStyle}, "(InDe) is an exclusive community of artistically-oriented thinkers and creators obsessed with designing innovative solutions to people’s problems. By cultivating an environment rich in indulgence of interesting food, places, and experiences, members will learn to command creativity, innovation, and passion through a tight embrace of spontaneity, uncertainty, and risk—all in the name of anthropocentric design. "))
+                ), 
+                React.createElement("tr", {style: rowSpacer}), 
+                React.createElement("tr", null, 
+                  React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Philosophy")), 
+                  React.createElement("td", null, 
+                    React.createElement("a", {name: "philosophy", id: "philosophyAnchor"}), 
+                    React.createElement("img", {src: "https://s3.amazonaws.com/indulgeindesign.org/imgs/philosophy.png", style: headStyle}), 
+                    React.createElement("p", {style: descriptionStyle}, "Indulging in the world around us enables us to create empathy-rich solutions through a first-hand understanding of humanity."), 
+                    React.createElement("p", {style: descriptionStyle}, "We seek answers to the question “What makes us human?” and in doing so, we position ourselves to address human needs.")
+                  )
+                ), 
+                React.createElement("tr", {style: rowSpacer}), 
+                React.createElement("tr", null, 
+                  React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Schedule")), 
+                  React.createElement("td", null, 
+                    React.createElement("a", {name: "schedule", id: "scheduleAnchor"}), 
+                    React.createElement("img", {src: "https://s3.amazonaws.com/indulgeindesign.org/imgs/schedule.png", style: scheduleStyle}), 
+                    React.createElement("p", {style: descriptionStyle}, "Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a mandatory weekly creativity session every monday from 7:27PM till 10:27PM. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies."), 
+                    React.createElement("p", {style: descriptionStyle}, "The spontaneous, impromptu things include road trips, dinners out, and random community-building activities. The idea is to experience things that will challenge assumptions we have around people and the world.")
+                  )
+                ), 
+                React.createElement("tr", {style: rowSpacer}), 
+                React.createElement("tr", null, 
+                  React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Membership")), 
+                  React.createElement("td", null, 
+                    React.createElement("a", {name: "member", id: "memberAnchor"}), 
+                    React.createElement("img", {src: "https://s3.amazonaws.com/indulgeindesign.org/imgs/knight.png", style: headStyle}), 
+                    React.createElement("p", {style: descriptionStyle}, "The Indulge in Design ecosystem is larger than the sum of its members, but the common thread connecting all of our members is an overwhelming desire to find what makes us human and to use those answers to improve the human experience through intentious and purposeful design. To be a designer is to question how and why things are done the way they are and to find better ways to do those things. Design is optimizing for circumstance and context."), 
+                    React.createElement("p", {style: descriptionStyle}, "There are 2 levels of members, one more involved than the other. To understand the differences, read the first three pages ", React.createElement("a", {href: "files/Application.pdf", id: "pdfLink"}, "here"), " Do not worry; it is short. If you are interested in becoming a full-time InDe member, please see the application on page four of the document above. We accept applications at all times during the year.")
+                  )
+                ), 
+                React.createElement("tr", {style: rowSpacer}), 
+                React.createElement("tr", null, 
+                  React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Contact")), 
+                  React.createElement("td", null, 
+                    React.createElement("a", {name: "contact"}), 
+                    React.createElement("img", {src: "https://s3.amazonaws.com/indulgeindesign.org/imgs/phone.png", style: headStyle}), 
+                    React.createElement("p", {style: descriptionStyle}, "Text Aaron at (925)876-0497 with a picture of your favorite chair or door knob.")
+                  )
+                ), 
+                React.createElement("tr", {style: rowSpacer}), 
+                React.createElement("tr", {style: endSpacer})
+              )
+            )
+          );
+        }
+      });
+      var navBarStyle={
+        position: 'fixed',
+        top: '-350px',
+        left: '-180px',
+        width: '1300px'
+      };
+      var navStyle={
+        position: 'fixed',
+        top: '10px',
+        fontFamily: 'avenir',
+        fontWeight:'100'
+      };
+      var navItemStyle={
+        display: 'inline-block',
+        marginLeft: '30px',
+        color: 'white'
+      };
+      var logoStyle={
+        width: '40px',
+        marginBottom:'-10px'
+      };
+      var sketchStyle={
+        width: '400px',
+        marginTop: '170px',
+        marginLeft:'370px',
+        display:'block'
+      };
+      var headStyle={
+        width: '300px',
+        display: 'block'
+      };
+      var scheduleStyle={
+        display: 'block',
+        width: '300',
+        paddingLeft: '25px'
+      };
+      var tableStyle={
+        width: '900px',
+        marginLeft: '50px',
+        marginTop:'-45px'
+      };
+      var titleStyle={
+        fontFamily: 'avenir',
+        fontSize: '40pt',
+        fontWeight: '200'
+      };
+      var subtitleStyle={
+        fontSize: '25pt',
+        fontFamily: 'avenir',
+        fontWeight: '100'
+      };
+      var descriptionStyle={
+        fontFamily:'avenir',
+        fontWeight: '100',
+        width: '350px',
+        marginLeft:'15px'
+      };
+      var rowSpacer={
+        height: '100px'
+      };
+      var endSpacer={
+        height: '50px'
+      };
+
+      React.render(
+        React.createElement(App, null),
+        document.getElementById('react')
+      );
+    </script>
+  </body>
+</html> 
