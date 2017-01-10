@@ -1,11 +1,11 @@
 /*/////////////////LAPTOP/DESKTOP DEVICES/////////////////*/
-@media all and (min-width: 920px) and (max-width: 1080px) {
+@media all and (min-width: 970px) and (max-width: 1080px) {
   #contact_description{
     width:55vw !important;
     font-size: 25pt;
   }
 }
-@media all and (min-width: 480px) and (max-width: 920px) {
+@media all and (min-width: 480px) and (max-width: 970px) {
   #content_container{
     margin-top:45vh;
     margin-left:4vw;
@@ -16,6 +16,9 @@
   #contact_description{
     font-size: 23pt;
     width: 50vw !important;
+  }
+  #link_container{
+    left:-8px;
   }
 }
 @media only screen and (max-width:780px){
@@ -43,6 +46,9 @@
     font-size: 15pt;
     margin: 0;
   }
+  #link_container{
+    left:-8px;
+  }
  }
  @media only screen and (max-width:620px){
   #contact_description{
@@ -54,6 +60,9 @@
   #email_me{
     font-size: 12pt;
   }
+  #link_container{
+    left:-8px;
+  }
   }
  @media only screen and (max-width:560px){
   #contact_description{
@@ -63,6 +72,9 @@
   #email_call_to_action{
     position: relative;
     top:1px;
+  }
+  #link_container{
+    left:-8px;
   }
   }
 @media all and (max-width: 480px) { 
@@ -75,6 +87,9 @@
   }
   #contact_description{
     font-size: 12pt;
+  }
+  #link_container{
+    left:-8px;
   }
 }
 /*/////////////////IPHONES/////////////////*/

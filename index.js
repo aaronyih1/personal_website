@@ -11,6 +11,10 @@ app.get('/contact', function(req, res) {
 app.get('/enrou', function(req, res) {
     res.sendFile( __dirname + "/static/work_files/enrou/" + "index.html" );
 });
+app.get('/enrou-app', function(req, res) {
+    res.sendFile( __dirname + "/static/work_files/enrou/application/" + "enrou.html" );
+});
+
 app.get('/kiwi', function(req, res) {
     res.sendFile( __dirname + "/static/work_files/kiwi_mag/" + "index.html" );
 });

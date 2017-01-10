@@ -14,10 +14,6 @@ body{
 	overflow: auto;
 	color: #303c98;
 }
-table{
-	font-weight: 700;
-	width: 450px;
-}
 tr{
 	line-height: 13px;
 }
@@ -86,6 +82,8 @@ a:hover{
 	margin-right: 40px;
 	position: relative;
 	top:-150px;
+	font-weight: 700;
+	width: 465px;
 }
 #link_container{
 	display: inline-block;
@@ -95,6 +93,7 @@ a:hover{
 	position: relative;
 	top:90px;
 	z-index: 100;
+	left:30px;
 }
 #design{
 	letter-spacing: 1px;
