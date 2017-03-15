@@ -67,5 +67,9 @@ app.get('/create', function(req, res) {
     res.sendFile( __dirname + "/static/project_files/create/" + "index.html" );
 });
 
+app.get('/DESMA28', function(req, res) {
+    res.redirect('https://whispering-plains-43176.herokuapp.com');
+});
+
 
 app.listen(process.env.PORT || 3000);
